@@ -1,4 +1,4 @@
-#include<stdio.h> // this code is for a pyramid patterns of asteriks.
+#include<stdio.h> // this code is for a pyramid patterns of asteriks
 int main()
 {
     int i,j,k,row,spc;

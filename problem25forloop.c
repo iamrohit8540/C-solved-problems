@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>  /* This code is to print a right angle triangle pattern of natural numbers. */
 int main()
 {
     int i,j,row;

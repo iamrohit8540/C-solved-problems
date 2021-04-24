@@ -1,15 +1,15 @@
 #include<stdio.h> // this code is for a pyramid patterns of asteriks
 int main()
 {
-    int i,j,k,row,spc;
+    int i,j,row,spc;
 
     printf("Enter your value: ");
     scanf("%d",&row);
-    spc=row-1;
+    
 
-    for (i=1;i<=row;i++,spc--)
+    for (i=1;i<=row;i++)
     {
-        for (k=spc;k>=1;k--)
+        for (spc=1;spc<=row-i;spc++)
         {
             printf(" ");
         }
